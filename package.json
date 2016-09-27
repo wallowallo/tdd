@@ -1,0 +1,23 @@
+{
+  "name": "asdf",
+  "version": "0.0.1",
+  "description": "asdf",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index",
+    "list-files": "ls && ls && ls",
+    "test": "node jasmine-runner"
+  },
+  "author": "Krister",
+  "license": "ISC",
+  "dependencies": {
+    "cows": "^1.1.0",
+    "jasmine": "^2.5.2",
+    "node": "0.0.0",
+    "node-noop": "^1.0.0",
+    "noop": "^0.2.2"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^2.7.0"
+  }
+}
