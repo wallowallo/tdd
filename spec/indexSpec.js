@@ -24,4 +24,9 @@ describe("index.js", function() {
     expect(index(11)).toBe("11b");
     expect(index(18)).toBe("18b");
   });
+
+  it("returns all the fibonacci sequence numbers that are smaller than that number", function fibonacciSeq() {
+     expect(fibonacciSeq(10)).toBe(fibonacciSequence[6]);
+     //expect(index(18)).toBe("18b");
+  });
 });

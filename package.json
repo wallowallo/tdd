@@ -4,6 +4,7 @@
   "description": "asdf",
   "main": "index.js",
   "scripts": {
+    "fibonacci-app": "node index",
     "app": "node index",
     "list-files": "ls && ls && ls",
     "test": "node jasmine-runner"

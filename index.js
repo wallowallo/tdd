@@ -15,3 +15,18 @@
    }
   return 2;
  }
+
+function fibonacciSeq(number) {
+  var i;
+  var fibonacciSequence = [];
+
+  fibonacciSequence[0] = 0;
+  fibonacciSequence[1] = 1;
+  for(i = 2; i <= 10; i++) {
+    fib[i] = fib[i-2] + fib[i-1];
+    console.log(fib[i]);
+  }
+    if(fibonacciSeq >= number) {
+      return;
+  }
+}
